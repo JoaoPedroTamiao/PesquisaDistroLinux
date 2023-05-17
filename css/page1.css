@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;   
+}
+header {
+    background-color: #020231;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+nav{
+    background-color: #0000009f;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: rgba(3, 20, 105, 0.749);
+    border-width: 0.1vw;
+}
+
+.painel{
+    display: flex;  
+    height: 81vh;
+    width: 30vw;
+    
+}
+.TUDO{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.conteudo{
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+
+p {
+    font-size: large;
+    color:rgb(255, 255, 255);
+}
+
+.img{
+    width: 90vw;
+    height: 81vh;
+    opacity: 1%;
+    display: flex;
+    justify-content:start;
+}
